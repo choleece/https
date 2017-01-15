@@ -14,7 +14,6 @@
     SSLCipherSuite="ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4"/>
     
     
-    
 将证书导入到服务器上，放到/usr/local/cert目录下，路径名跟证书实际存放目录一致即可，然后填上证书的密码
 
 # Ngnix证书的安装
