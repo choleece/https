@@ -1,5 +1,6 @@
 # Tomcat 配置证书服务
 以下是PFX证书的安装
+
     <Connector port="8443"
     protocol="HTTP/1.1"
     SSLEnabled="true"
@@ -18,6 +19,7 @@
 
 # Ngnix证书的安装
 以下属性中ssl开头的属性与证书配置有直接关系，其它属性请结合自己的实际情况复制或调整
+
     server {
       listen 443;
       server_name localhost;
